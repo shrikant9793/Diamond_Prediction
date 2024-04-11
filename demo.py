@@ -15,4 +15,5 @@ from Diamond_price_predictions.exception import Diamond_PredictionException
 try:
     a = 1 / "10"
 except Exception as e:
+    logging.info(e)
     raise Diamond_PredictionException(e, sys) from e 
