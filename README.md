@@ -1,6 +1,5 @@
 # Diamond_Prediction
 
 
-#mongodb+srv://shrinaths2@gmail.com:shrinath@cluster0.bwuuanj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-#mongodb+srv://<username>:<password>@cluster0.bwuuanj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-#updated notebook
+#Database name = DIAMOND_PRED
+#mongodb+srv://shrinaths2:<password>@cluster0.cxkiakv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
