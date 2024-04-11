@@ -1,7 +1,18 @@
-# from us_visa.pipline.training_pipeline import TrainPipeline
+# from Diamond_price_predictions.pipline.training_pipeline import TrainPipeline
 
 
 # pipline  = TrainPipeline()
 # pipline.run_pipeline()
 
-from Diamond_Prediction import Exception
+import sys
+import os
+from Diamond_price_predictions.logger import logging
+from Diamond_price_predictions.exception import Diamond_PredictionException
+
+
+#logging.info("Welcome to the customelogging")
+
+try:
+    a = 1 / "10"
+except Exception as e:
+    raise Diamond_PredictionException(e, sys) from e 
