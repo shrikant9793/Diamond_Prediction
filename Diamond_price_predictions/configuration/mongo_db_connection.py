@@ -1,6 +1,6 @@
 import sys
 
-from Diamond_price_predictions.exception import USvisaException
+from Diamond_price_predictions.exception import Diamond_PredictionException
 from Diamond_price_predictions.logger import logging
 
 import os
